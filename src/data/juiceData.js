@@ -38,7 +38,7 @@ export const JUICE_PRODUCTS = [
     tags: ['Detox', 'Hydration', 'Alkaline'],
     description: 'The ultimate restorative green tonic. Deeply alkalizing and loaded with chlorophyll, this blend of crisp celery, cucumber, emerald kale, and green Granny Smith apple leaves you feeling energized, clear-headed, and refreshed.',
     ingredients: ['Organic Lacinato Kale', 'English Cucumber', 'Crisp Celery', 'Granny Smith Apple', 'Fresh Spearmint', 'Key Lime'],
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80',
+    image: 'https://highonlife.dk/cdn/shop/articles/kale_me_juice.jpg?v=1761416087&width=1200',
     allergens: 'Contains Celery',
   },
   {
@@ -80,7 +80,7 @@ export const JUICE_PRODUCTS = [
     tags: ['Tropical', 'Energy', 'Mood Boost'],
     description: 'An exotic taste of paradise! Sweet aromatic Alphonso mango pulp blended with tangy passion fruit seeds and sweet golden pineapple for an explosion of lush tropical sunshine in every gulp.',
     ingredients: ['Alphonso Mango', 'Golden Pineapple', 'Passion Fruit Purée', 'Crisp Gala Apple', 'Lime Zest'],
-    image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80',
     allergens: 'None',
   },
   {
@@ -143,7 +143,7 @@ export const JUICE_PRODUCTS = [
     tags: ['Blood Flow', 'Pre-Workout', 'Nitric Oxide'],
     description: 'Loved by endurance athletes and health enthusiasts! Earthy sweet ruby beets rich in natural dietary nitrates, paired with crunchy carrots, crisp red apples, and a warming ginger kick.',
     ingredients: ['Ruby Red Beetroot', 'Heirloom Carrots', 'Crisp Red Apple', 'Fresh Ginger', 'Lime Juice'],
-    image: 'https://images.unsplash.com/photo-1622597467836-f3285f2131b7?auto=format&fit=crop&w=800&q=80',
+    image: 'https://purecleanperformance.com/cdn/shop/articles/unnamed_c3d84bd8-b981-4e7a-9adf-22b8c1507719.png?v=1731623053&width=1445',
     allergens: 'None',
   },
   {
@@ -206,7 +206,7 @@ export const JUICE_PRODUCTS = [
     tags: ['Alkalizing', 'Liver Support', 'Enzyme Rich'],
     description: 'Grown on organic soil trays and pressed minutes before bottling. Packed with live digestive enzymes, over 70 trace minerals, and pure bioavailable sunshine chlorophyll.',
     ingredients: ['Living Organic Wheatgrass', 'Crisp Granny Smith Apple', 'Ginger Root Juice', 'Lemon Drop'],
-    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80',
+    image: 'https://tevabari.co.il/images/article/wheatgrass/Shutterstock_740169214.jpg',
     allergens: 'Wheatgrass (Gluten-free as cut before grain formation)',
   },
   {
@@ -250,6 +250,27 @@ export const JUICE_PRODUCTS = [
     ingredients: ['Fresh Oranges', 'Sweet Carrots', 'Himalayan Sea Buckthorn', 'Pressed Ginger', 'Zinc Gluconate', 'Turmeric'],
     image: 'https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?auto=format&fit=crop&w=800&q=80',
     allergens: 'None',
+  },
+  {
+    id: 'juice-13',
+    name: 'Golden Pineapple Press',
+    tagline: 'Golden pineapple, young coconut, ginger & lime',
+    category: 'Cold-Pressed',
+    price: 8.75,
+    originalPrice: 9.75,
+    rating: 4.9,
+    reviewsCount: 96,
+    size: '450ml',
+    calories: 118,
+    sugar: '17g natural fruit',
+    vitC: '125% DV',
+    color: 'from-yellow-400 to-amber-500',
+    badge: 'Island Edition',
+    tags: ['Hydration', 'Tropical', 'Vitamin C'],
+    description: 'A bright island blend of ripe golden pineapple, young coconut water, fresh ginger, and a squeeze of lime.',
+    ingredients: ['Golden Pineapple', 'Young Coconut Water', 'Fresh Ginger', 'Key Lime'],
+    image: 'https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=900&q=85',
+    allergens: 'Contains Coconut',
   }
 ];
 

@@ -111,7 +111,7 @@ export default function CartDrawer() {
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="w-16 h-16 rounded-xl object-cover"
+                  className="cart-product-photo w-16 h-16 rounded-xl object-cover"
                 />
                 <div className="flex-1 min-w-0">
                   <h4 className="font-extrabold text-sm text-stone-900 dark:text-white truncate">

@@ -48,7 +48,7 @@ const STEPS = [
 
 export default function About() {
   return (
-    <section id="about" className="py-20 relative bg-white dark:bg-stone-900">
+    <section id="about" className="py-20 relative" style={{ background: 'linear-gradient(180deg, #0a0f1a 0%, #07090E 100%)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Story Section */}
@@ -61,7 +61,7 @@ export default function About() {
               <span>Our Philosophy & Roots</span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-stone-900 dark:text-white tracking-tight leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight" style={{ fontFamily: "'Cinzel', serif" }}>
               We Believe Pure Nutrition Should Never Be Heated or Compromised.
             </h2>
 
@@ -96,11 +96,11 @@ export default function About() {
 
           {/* Right Image Composition */}
           <div className="lg:col-span-5 relative">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+            <div className="story-image-frame relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80"
-                alt="Organic farm harvesting fresh greens"
-                className="w-full h-[440px] object-cover"
+                src="https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80"
+                alt="Freshly blended juice made with seasonal fruit"
+                className="story-photo w-full h-[440px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent" />
               

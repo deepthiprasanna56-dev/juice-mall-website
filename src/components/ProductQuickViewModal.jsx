@@ -38,11 +38,11 @@ export default function ProductQuickViewModal() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           
           {/* Left: Product Image */}
-          <div className="relative aspect-square rounded-2xl overflow-hidden bg-stone-100 dark:bg-stone-800 shadow-md">
+          <div className="quick-view-photo-frame relative aspect-square rounded-2xl overflow-hidden bg-stone-100 dark:bg-stone-800 shadow-md">
             <img
               src={quickViewProduct.image}
-              alt={quickViewProduct.name}
-              className="w-full h-full object-cover"
+              alt={`${quickViewProduct.name} juice made with ${quickViewProduct.tagline.toLowerCase()}`}
+              className="quick-view-photo w-full h-full object-cover"
             />
             {quickViewProduct.badge && (
               <span className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-orange-500 text-white shadow-md">

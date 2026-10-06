@@ -110,24 +110,3 @@ npm run preview
 ```
 
 ---
-
-## 🌐 Deployment
-
-### Netlify Deployment
-This repository includes a preconfigured `netlify.toml` file.
-1. Push your code to GitHub.
-2. Log into [Netlify](https://app.netlify.com/).
-3. Click **Add new site** > **Import an existing project** > **GitHub**.
-4. Select `juice-mall-website`.
-5. Netlify will auto-detect settings:
-   - **Build command**: `npm run build`
-   - **Publish directory**: `dist`
-6. Click **Deploy Site**!
-
-### Vercel Deployment
-This repository includes a preconfigured `vercel.json` file.
-1. Push your code to GitHub.
-2. Log into [Vercel](https://vercel.com/).
-3. Click **Add New Project** > Import `juice-mall-website`.
-4. Framework Preset: **Vite**.
-5. Click **Deploy**!

@@ -21,15 +21,15 @@ export default function ProductCard({ product }) {
   return (
     <div
       onClick={() => setQuickViewProduct(product)}
-      className="group relative bg-white dark:bg-stone-800/90 rounded-3xl p-4 sm:p-5 border border-orange-100/80 dark:border-stone-700/60 shadow-md hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between cursor-pointer"
+      className="product-card luxury-card group relative bg-white dark:bg-stone-800/90 rounded-3xl p-4 sm:p-5 border border-orange-100/80 dark:border-stone-700/60 shadow-md hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between cursor-pointer"
     >
       {/* Top Card Image & Floating Badges */}
-      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-stone-100 dark:bg-stone-900 mb-4">
+      <div className="product-photo-frame relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-stone-100 dark:bg-stone-900 mb-4">
         <img
           src={product.image}
-          alt={product.name}
+          alt={`${product.name} juice made with ${product.tagline.toLowerCase()}`}
           loading="lazy"
-          className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
+          className="product-photo w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
         />
 
         {/* Gradient overlay on hover */}
